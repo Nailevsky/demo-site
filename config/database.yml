@@ -79,6 +79,4 @@ test:
 #
 production:
   <<: *default
-  database: gameapptheory_production
-  username: gameapptheory
-  password: <%= ENV["GAMEAPPTHEORY_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
