@@ -1,0 +1,2 @@
+web: ruby bin/rails server
+watcher: ruby bin/rails tailwindcss:watch
